@@ -1,0 +1,76 @@
+body {
+    background-image: url("markus-spiske-FXFz-sW0uwo-unsplash.jpg");
+    background-size: stretch;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: black;
+}
+
+
+.container {
+    position: relative;
+    top: 2rem;
+    left: 50%;
+    background-color: rgba(238, 255, 0, 0.74);
+    border-radius: 5px;
+    max-width: 40%;
+    height: 80vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#botaoEnviar {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #050505;
+    color: white;
+    border: 2px solid #000000;
+}
+
+#botaoEnviar:hover {
+    background-color: transparent;
+    color: #111111;
+    border: 2px solid #000000;
+}
+
+textarea {
+    width: 200px;
+    background-color: #050505;
+    color: #859593;
+}
+
+h1 {
+    color: #000000;
+}
+
+#incremento {
+    display: none;
+}
+
+#increment {
+    background-color: #1A2326;
+    color: #859593;
+    line-height: 30px;
+    height: 30px;
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        min-width: 70%;
+        height: 700px;
+    }
+}
